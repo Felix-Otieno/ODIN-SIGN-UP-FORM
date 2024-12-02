@@ -4,59 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up Form</title>
+    <title>ODIN SIGN UP FORM</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <h1>SIGN UP FORM</h1>
+    <form action="" method="get">
+        <div class="family">
+            <div class="first">
+                <div class="firstBaby">
+                    <label for="firstName">FIRST NAME</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Write your first name" required>
 
-    <main>
-        <aside>
-            <img src="assets/pic.jpg" alt="code pic">
-            <h1>Code Crucible Tech Hub</h1>
-        </aside>
-        <section>
-            <h1>Sign Up for Code Crucible</h1>
-            <div>
-                <form action="" method="get">
-                    <div>
-                        <div class="name">
-                            <label for="firstName">FIRST NAME</label>
-                            <input type="text" id="firstName" name="firstName">
-                        </div>
-                        <div>
-                            <label for="lastName">LAST NAME</label>
-                            <input type="text" id="lastName" name="lastName">
-                        </div>
-                        <div class="emnu">
-                            <label for="email">EMAIL</label>
-                            <input type="email" id="email" name="email">
-                        </div>
-                        <div>
-                            <label for="phoneNumber">PHOME NUMBER</label>
-                            <input type="number" id="phoneNumber" name="phoneNumber">
-                        </div>
-                        <div class="password">
-                            <label for="passWord">PASSWORD</label>
-                            <input type="password" id="passWord" name="passWord">
-                        </div>
-                        <div>
-                            <label for="confirmPassWord">CONFIRM PASSWORD</label>
-                            <input type="text" id="confirmPassWord" name="confirmPassWord">
-                        </div>
-                    </div>
+                </div>
+                <div class="firstBaby">
+                    <label for="secondName">SECOND NAME</label>
+                    <input type="text" id="secondName" name="secondName" placeholder="Write your second name" required>
 
-                    <div>
-                        <button type="button">CREATE ACCOUNT</button>
-                        <span>Already have an account? <a href="index.html">Log In</a></span>
-                    </div>
-
-                </form>
-
+                </div>
             </div>
-        </section>
-    </main>
+
+            <div class="second">
+                <div class="secondBaby">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+
+                </div>
+                <div class="secondBaby">
+                    <label for="phoneNumber">PHONE NUMBER</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="+254XXXXXXXXX"
+                        pattern="\+254[0-9]{9}" title="Phone number must start with +254 followed by 9 digits" required>
+
+                </div>
+            </div>
+
+            <div class="third">
+                <div class="thirdBaby">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="password" minlength="8"
+                        title="Password must be at least 8 characters long" placeholder="Enter your password" required>
+
+                </div>
+                <div class="thirdBaby">
+                    <label for="confirmPassword">CONFIRM PASSWORD</label>
+                    <input type="text" id="confirmPassword" name="confirmPassword" title="Passwords must match"
+                        placeholder="Confirm your password" required>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="lasty">
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="index.html">Log In</a></p>
+
+        </div>
 
 
+
+    </form>
 
 </body>
 

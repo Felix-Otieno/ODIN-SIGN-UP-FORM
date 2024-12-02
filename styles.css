@@ -1,0 +1,133 @@
+body {
+    background-color: #8174A0;
+}
+
+h1 {
+    color: #FF7F3E;
+    font-size: 5rem;
+    text-align: center;
+    border: 3px solid #80C4E9;
+    border-radius: 250px;
+    background-color: #605678;
+    font-style: oblique;
+}
+
+.family {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(205, 194, 165/ 0.2);
+    border-radius: 40px;
+    height: 40vh;
+    width: 60%;
+    margin-left: 20rem;
+    padding: 5rem;
+
+
+}
+
+.firstBaby {
+    color: black;
+    font-size: 1.3rem;
+    text-align: left;
+    margin: 40px;
+
+}
+
+.secondBaby {
+    color: black;
+    font-size: 1.3rem;
+    text-align: left;
+    margin: 40px;
+
+}
+
+.thirdBaby {
+    color: black;
+    font-size: 1rem;
+    text-align: left;
+    margin: 40px;
+
+}
+
+
+
+.first {
+    display: flex;
+    margin: auto;
+    width: 20%;
+}
+
+.second {
+    display: flex;
+    margin: auto;
+    width: 20%;
+}
+
+.third {
+    display: flex;
+    margin: auto;
+    width: 20%;
+}
+
+
+.firstBaby > input {
+    width: 250px;
+    height: 3vh;
+    border-radius: 15px;
+
+}
+
+.secondBaby > input {
+    width: 250px;
+    height: 3vh;
+    border-radius: 15px;
+
+}
+
+.thirdBaby > input {
+    width: 250px;
+    height: 3vh;
+    border-radius: 15px;
+
+}
+
+.lasty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Space between button and paragraph */
+    margin-top: 20px; /* Adjust spacing from the top */
+    font-family: Arial, sans-serif; /* Optional font choice */
+}
+
+.lasty button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for size */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.lasty button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+.lasty p {
+    font-size: 14px; /* Adjust font size */
+    color: #555; /* Slightly dark gray */
+    margin: 0; /* Remove default margins */
+}
+
+.lasty p a {
+    color: #007BFF; /* Blue link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold for emphasis */
+}
+
+.lasty p a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
